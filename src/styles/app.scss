@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Philly;
+    src: url(PhillySans.otf);
+}
+
+
+h1,h2,h3,h4,h5,h6,a {
+    font-family: Philly;
+}
+*{
+    font-family: 'Yusei Magic', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+    @media screen and (max-width: 768px) {
+       h1{font-size: 1rem;}
+       h3{font-size:0.8rem;}
+       p,a{font-size: 0.5rem;}
+       
+    }
+    @media screen and (max-width: 375px) {
+        h1{font-size: 0.7rem;}
+        p,a{font-size: 0.3rem;}
+        
+     }
+
+
+
+
+
+
+@import "./projects.scss";
